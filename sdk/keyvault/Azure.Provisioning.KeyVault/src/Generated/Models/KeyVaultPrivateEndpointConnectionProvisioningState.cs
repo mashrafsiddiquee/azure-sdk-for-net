@@ -10,17 +10,11 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> The current provisioning state. </summary>
     public enum KeyVaultPrivateEndpointConnectionProvisioningState
     {
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> Creating. </summary>
         Creating,
-        /// <summary> Updating. </summary>
         Updating,
-        /// <summary> Deleting. </summary>
         Deleting,
-        /// <summary> Failed. </summary>
         Failed,
-        /// <summary> Disconnected. </summary>
         Disconnected
     }
 }

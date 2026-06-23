@@ -10,11 +10,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> The tier of the particular SKU, e.g. GeneralPurpose. </summary>
     public enum MySqlFlexibleServerSkuTier
     {
-        /// <summary> Burstable. </summary>
         Burstable,
-        /// <summary> GeneralPurpose. </summary>
         GeneralPurpose,
-        /// <summary> MemoryOptimized. </summary>
         MemoryOptimized
     }
 }

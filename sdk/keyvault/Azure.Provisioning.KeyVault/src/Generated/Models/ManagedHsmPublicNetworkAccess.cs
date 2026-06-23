@@ -10,9 +10,7 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> Control permission to the managed HSM from public networks. </summary>
     public enum ManagedHsmPublicNetworkAccess
     {
-        /// <summary> Enabled. </summary>
         Enabled,
-        /// <summary> Disabled. </summary>
         Disabled
     }
 }

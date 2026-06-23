@@ -12,9 +12,7 @@ namespace Azure.Provisioning.Kubernetes
     /// <summary> Indicates the kind of Arc connected cluster based on host infrastructure. </summary>
     public enum ConnectedClusterKind
     {
-        /// <summary> ProvisionedCluster. </summary>
         ProvisionedCluster,
-        /// <summary> Aws. </summary>
         [DataMember(Name = "AWS")]
         Aws,
         /// <summary> Represents a connected cluster hosted on Google Cloud Platform (GCP). </summary>

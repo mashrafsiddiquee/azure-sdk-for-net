@@ -10,9 +10,7 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> Tells what traffic can bypass network rules. This can be 'AzureServices' or 'None'.  If not specified the default is 'AzureServices'. </summary>
     public enum KeyVaultNetworkRuleBypassOption
     {
-        /// <summary> AzureServices. </summary>
         AzureServices,
-        /// <summary> None. </summary>
         None
     }
 }

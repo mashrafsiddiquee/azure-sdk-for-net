@@ -10,7 +10,6 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> SKU family name. </summary>
     public enum KeyVaultSkuFamily
     {
-        /// <summary> A. </summary>
         A
     }
 }

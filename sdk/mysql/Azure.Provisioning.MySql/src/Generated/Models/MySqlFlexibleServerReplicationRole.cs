@@ -10,11 +10,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> The replication role. </summary>
     public enum MySqlFlexibleServerReplicationRole
     {
-        /// <summary> None. </summary>
         None,
-        /// <summary> Source. </summary>
         Source,
-        /// <summary> Replica. </summary>
         Replica
     }
 }

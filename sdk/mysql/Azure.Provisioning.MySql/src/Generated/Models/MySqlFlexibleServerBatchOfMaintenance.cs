@@ -10,11 +10,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> The batch of maintenance when enabled the custom managed maintenance window of a server. </summary>
     public enum MySqlFlexibleServerBatchOfMaintenance
     {
-        /// <summary> Default. </summary>
         Default,
-        /// <summary> Batch1. </summary>
         Batch1,
-        /// <summary> Batch2. </summary>
         Batch2
     }
 }

@@ -10,19 +10,12 @@ namespace Azure.Provisioning.Kubernetes
     /// <summary> The current deployment state of connectedClusters. </summary>
     public enum ConnectedClusterProvisioningState
     {
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> Failed. </summary>
         Failed,
-        /// <summary> Canceled. </summary>
         Canceled,
-        /// <summary> Provisioning. </summary>
         Provisioning,
-        /// <summary> Updating. </summary>
         Updating,
-        /// <summary> Deleting. </summary>
         Deleting,
-        /// <summary> Accepted. </summary>
         Accepted
     }
 }

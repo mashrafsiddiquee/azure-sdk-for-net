@@ -10,13 +10,9 @@ namespace Azure.Provisioning.MySql
     /// <summary> The current provisioning state. </summary>
     public enum MySqlFlexibleServerMaintenanceProvisioningState
     {
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> Creating. </summary>
         Creating,
-        /// <summary> Deleting. </summary>
         Deleting,
-        /// <summary> Failed. </summary>
         Failed
     }
 }

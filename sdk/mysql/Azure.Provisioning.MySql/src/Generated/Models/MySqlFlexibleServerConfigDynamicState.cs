@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> If is the configuration dynamic. </summary>
     public enum MySqlFlexibleServerConfigDynamicState
     {
-        /// <summary> True. </summary>
         True,
-        /// <summary> False. </summary>
         False
     }
 }

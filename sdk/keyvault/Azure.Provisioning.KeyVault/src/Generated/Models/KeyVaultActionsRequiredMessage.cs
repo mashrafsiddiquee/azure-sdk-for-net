@@ -10,7 +10,6 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> A message indicating if changes on the service provider require any updates on the consumer. </summary>
     public enum KeyVaultActionsRequiredMessage
     {
-        /// <summary> None. </summary>
         None
     }
 }

@@ -10,9 +10,7 @@ namespace Azure.Provisioning.Kubernetes
     /// <summary> Property which describes the state of private link on a connected cluster resource. </summary>
     public enum ConnectedClusterPrivateLinkState
     {
-        /// <summary> Enabled. </summary>
         Enabled,
-        /// <summary> Disabled. </summary>
         Disabled
     }
 }

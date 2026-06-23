@@ -10,13 +10,9 @@ namespace Azure.Provisioning.MySql
     /// <summary> The mode to create a new MySQL server. </summary>
     public enum MySqlFlexibleServerCreateMode
     {
-        /// <summary> Default. </summary>
         Default,
-        /// <summary> PointInTimeRestore. </summary>
         PointInTimeRestore,
-        /// <summary> Replica. </summary>
         Replica,
-        /// <summary> GeoRestore. </summary>
         GeoRestore
     }
 }

@@ -10,9 +10,7 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> SKU Family of the managed HSM Pool. </summary>
     public enum ManagedHsmSkuFamily
     {
-        /// <summary> B. </summary>
         B,
-        /// <summary> C. </summary>
         C
     }
 }

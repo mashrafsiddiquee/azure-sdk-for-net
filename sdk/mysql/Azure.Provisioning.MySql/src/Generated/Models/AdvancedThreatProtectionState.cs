@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> Specifies the state of the Advanced Threat Protection, whether it is enabled or disabled on the server. </summary>
     public enum AdvancedThreatProtectionState
     {
-        /// <summary> Enabled. </summary>
         Enabled,
-        /// <summary> Disabled. </summary>
         Disabled
     }
 }

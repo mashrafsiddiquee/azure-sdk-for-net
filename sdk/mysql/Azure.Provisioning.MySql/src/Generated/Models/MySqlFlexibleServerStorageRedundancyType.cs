@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> Enum to indicate whether storage sku value is 'ZoneRedundancy' or 'LocalRedundancy'. </summary>
     public enum MySqlFlexibleServerStorageRedundancyType
     {
-        /// <summary> LocalRedundancy. </summary>
         LocalRedundancy,
-        /// <summary> ZoneRedundancy. </summary>
         ZoneRedundancy
     }
 }

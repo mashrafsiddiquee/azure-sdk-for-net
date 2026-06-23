@@ -12,10 +12,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> The major version of a server. 8.0.21 stands for MySQL 8.0, 5.7.44 stands for MySQL 5.7. </summary>
     public enum MySqlFlexibleServerVersion
     {
-        /// <summary> Five7. </summary>
         [DataMember(Name = "5.7")]
         Five7,
-        /// <summary> Eight021. </summary>
         [DataMember(Name = "8.0.21")]
         Eight021
     }

@@ -10,9 +10,7 @@ namespace Azure.Provisioning.Kubernetes
     /// <summary> Indicates whether the Arc agents on the be upgraded automatically to the latest version. Defaults to Enabled. </summary>
     public enum ConnectedClusterAutoUpgradeMode
     {
-        /// <summary> Enabled. </summary>
         Enabled,
-        /// <summary> Disabled. </summary>
         Disabled
     }
 }

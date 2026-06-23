@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> If is the configuration pending restart or not. </summary>
     public enum MySqlFlexibleServerConfigPendingRestartState
     {
-        /// <summary> True. </summary>
         True,
-        /// <summary> False. </summary>
         False
     }
 }

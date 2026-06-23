@@ -10,17 +10,11 @@ namespace Azure.Provisioning.MySql
     /// <summary> The current status of this maintenance. </summary>
     public enum MySqlFlexibleServerMaintenanceState
     {
-        /// <summary> Scheduled. </summary>
         Scheduled,
-        /// <summary> ReScheduled. </summary>
         ReScheduled,
-        /// <summary> InPreparation. </summary>
         InPreparation,
-        /// <summary> Processing. </summary>
         Processing,
-        /// <summary> Completed. </summary>
         Completed,
-        /// <summary> Canceled. </summary>
         Canceled
     }
 }

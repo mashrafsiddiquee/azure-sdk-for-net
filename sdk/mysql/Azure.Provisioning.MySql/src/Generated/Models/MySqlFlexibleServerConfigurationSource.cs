@@ -12,10 +12,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> Source of the configuration. </summary>
     public enum MySqlFlexibleServerConfigurationSource
     {
-        /// <summary> SystemDefault. </summary>
         [DataMember(Name = "system-default")]
         SystemDefault,
-        /// <summary> UserOverride. </summary>
         [DataMember(Name = "user-override")]
         UserOverride
     }

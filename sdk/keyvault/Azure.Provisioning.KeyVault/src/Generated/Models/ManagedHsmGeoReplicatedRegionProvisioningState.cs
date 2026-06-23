@@ -10,17 +10,11 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> The current provisioning state. </summary>
     public enum ManagedHsmGeoReplicatedRegionProvisioningState
     {
-        /// <summary> Preprovisioning. </summary>
         Preprovisioning,
-        /// <summary> Provisioning. </summary>
         Provisioning,
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> Failed. </summary>
         Failed,
-        /// <summary> Deleting. </summary>
         Deleting,
-        /// <summary> Cleanup. </summary>
         Cleanup
     }
 }

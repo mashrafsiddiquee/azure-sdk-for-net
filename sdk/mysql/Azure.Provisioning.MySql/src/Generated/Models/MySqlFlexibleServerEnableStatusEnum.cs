@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> Enum to indicate whether value is 'Enabled' or 'Disabled'. </summary>
     public enum MySqlFlexibleServerEnableStatusEnum
     {
-        /// <summary> Enabled. </summary>
         Enabled,
-        /// <summary> Disabled. </summary>
         Disabled
     }
 }

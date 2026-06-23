@@ -12,7 +12,6 @@ namespace Azure.Provisioning.MySql
     /// <summary></summary>
     public enum MySqlFlexibleServerBackupType
     {
-        /// <summary> Full. </summary>
         [DataMember(Name = "FULL")]
         Full
     }

@@ -10,13 +10,9 @@ namespace Azure.Provisioning.MySql
     /// <summary> The current provisioning state. </summary>
     public enum AdvancedThreatProtectionProvisioningState
     {
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> Updating. </summary>
         Updating,
-        /// <summary> Canceled. </summary>
         Canceled,
-        /// <summary> Failed. </summary>
         Failed
     }
 }

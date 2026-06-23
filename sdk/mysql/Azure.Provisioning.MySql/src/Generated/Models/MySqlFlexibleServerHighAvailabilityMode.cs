@@ -10,11 +10,8 @@ namespace Azure.Provisioning.MySql
     /// <summary> High availability mode for a server. </summary>
     public enum MySqlFlexibleServerHighAvailabilityMode
     {
-        /// <summary> Disabled. </summary>
         Disabled,
-        /// <summary> ZoneRedundant. </summary>
         ZoneRedundant,
-        /// <summary> SameZone. </summary>
         SameZone
     }
 }

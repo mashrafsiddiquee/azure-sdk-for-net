@@ -10,9 +10,7 @@ namespace Azure.Provisioning.KeyVault
     /// <summary> Provisioning state of the vault. </summary>
     public enum KeyVaultProvisioningState
     {
-        /// <summary> Succeeded. </summary>
         Succeeded,
-        /// <summary> RegisteringDns. </summary>
         RegisteringDns
     }
 }

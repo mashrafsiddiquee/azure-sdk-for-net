@@ -10,7 +10,6 @@ namespace Azure.Provisioning.MySql
     /// <summary> Storage type of import source. </summary>
     public enum ImportSourceStorageType
     {
-        /// <summary> AzureBlob. </summary>
         AzureBlob
     }
 }

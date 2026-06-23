@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> If is the configuration read only. </summary>
     public enum MySqlFlexibleServerConfigReadOnlyState
     {
-        /// <summary> True. </summary>
         True,
-        /// <summary> False. </summary>
         False
     }
 }

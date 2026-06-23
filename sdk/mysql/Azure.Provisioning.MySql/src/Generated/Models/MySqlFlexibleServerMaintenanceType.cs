@@ -10,13 +10,9 @@ namespace Azure.Provisioning.MySql
     /// <summary> The type of this maintenance. </summary>
     public enum MySqlFlexibleServerMaintenanceType
     {
-        /// <summary> RoutineMaintenance. </summary>
         RoutineMaintenance,
-        /// <summary> MinorVersionUpgrade. </summary>
         MinorVersionUpgrade,
-        /// <summary> SecurityPatches. </summary>
         SecurityPatches,
-        /// <summary> HotFixes. </summary>
         HotFixes
     }
 }

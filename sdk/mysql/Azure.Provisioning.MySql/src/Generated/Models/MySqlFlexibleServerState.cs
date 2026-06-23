@@ -10,19 +10,12 @@ namespace Azure.Provisioning.MySql
     /// <summary> The state of a server. </summary>
     public enum MySqlFlexibleServerState
     {
-        /// <summary> Ready. </summary>
         Ready,
-        /// <summary> Dropping. </summary>
         Dropping,
-        /// <summary> Disabled. </summary>
         Disabled,
-        /// <summary> Starting. </summary>
         Starting,
-        /// <summary> Stopping. </summary>
         Stopping,
-        /// <summary> Stopped. </summary>
         Stopped,
-        /// <summary> Updating. </summary>
         Updating
     }
 }

@@ -10,9 +10,7 @@ namespace Azure.Provisioning.MySql
     /// <summary> Enum to indicate the patch strategy of a server. </summary>
     public enum MySqlFlexibleServerPatchStrategy
     {
-        /// <summary> Regular. </summary>
         Regular,
-        /// <summary> VirtualCanary. </summary>
         VirtualCanary
     }
 }
